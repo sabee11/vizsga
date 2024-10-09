@@ -7,7 +7,7 @@ export class Event implements IEvent {
         public name: string,
         public date: Date,
         public place: string,
-        public participant: Participant[] = [],
+        public participant: string[] = [],
         public eventType: string
     ) {}
 }

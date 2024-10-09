@@ -2,9 +2,9 @@ import { IEvent } from "../interfaces/IEvent";
 import { Event } from "./Event";
 import { Participant } from "./Participant";
 
-export class eventManager {
+export class eventManager{
     private events: Event[] = [];
-    private participants: Participant[] = [];
+    private participants: string[] = [];
 
     addEvent(event: Event): void {
         this.events.push(event);

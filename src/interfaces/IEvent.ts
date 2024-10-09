@@ -5,6 +5,6 @@ export interface IEvent {
     name: string;
     date: Date;
     place: string;
-    participant: Participant[];
+    participant: string[];
     eventType: string;
 }
